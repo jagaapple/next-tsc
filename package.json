@@ -1,0 +1,30 @@
+{
+  "name": "next-tsc",
+  "version": "0.1.0",
+  "description": "Use TypeScript with TypeScript compiler (tsc) in Next.js.",
+  "keywords": [
+    "Next.js",
+    "TypeScript"
+  ],
+  "homepage": "https://github.com/jagaapple/next-tsc",
+  "bugs": "https://github.com/jagaapple/next-tsc/issues",
+  "license": "MIT",
+  "author": "Jaga Apple",
+  "contributors": [],
+  "main": "index.js",
+  "bin": "",
+  "man": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jagaapple/next-tsc.git"
+  },
+  "scripts": {},
+  "config": {},
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {},
+  "engines": {},
+  "engineStrict": false,
+  "preferGlobal": false,
+  "private": false
+}
