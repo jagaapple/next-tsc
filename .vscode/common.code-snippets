@@ -1,7 +1,7 @@
 {
 	"Insert header comments": {
 		"prefix": "comment header",
-    "scope": "javascript,typescript,typescriptreact",
+    "scope": "javascript",
 		"body": [
 			"// =============================================================================================================================",
       "// ${TM_DIRECTORY/(.*?next-tsc)?\\/?(\\w+)(\\-)?/${2:/upcase}${3:? : - }/g}${TM_FILENAME/(\\w+)\\-?(\\.(\\w{4,}))?(\\.\\w+$)?/${1:/upcase} ${3:/upcase}/g}",
