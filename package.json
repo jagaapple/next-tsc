@@ -1,6 +1,6 @@
 {
   "name": "next-tsc",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Use TypeScript with TypeScript compiler (tsc) in Next.js.",
   "keywords": [
     "Next.js",
