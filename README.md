@@ -108,6 +108,16 @@ const withTypeScript = require("next-tsc");
 module.exports = withTypeScript();
 ```
 
+You should set `noEmit` to `false` or remove the property in `tsconfig.json` .
+
+```js
+{
+  "compilerOptions": {
+    ...
+    "noEmit": false, // or remove this property
+    ...
+```
+
 
 ## Contributing to next-tsc
 Bug reports and pull requests are welcome on GitHub at
