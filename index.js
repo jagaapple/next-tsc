@@ -21,18 +21,21 @@ module.exports = (nextConfig = {}) => {
       }
 
       const { dir, defaultLoaders, dev, isServer } = options;
+      const typescriptFilesRegExp = /\.(ts|tsx)$/;
       config.resolve.extensions.push(".ts", ".tsx");
 
-      const typescriptFilesRegExp = /\.(ts|tsx)$/;
+      // Next.js will automatically apply hot-self-accept-loader for all extensions in `pageExtensions` .
+      if (!defaultLoaders.hotSelfAccept) {
+        if (dev && !isServer) {
+          const path = require("path");
 
-      const path = require("path");
-      if (dev && !isServer) {
-        config.module.rules.push({
-          test: typescriptFilesRegExp,
-          loader: "hot-self-accept-loader",
-          include: [path.join(dir, "pages")],
-          options: { extensions: typescriptFilesRegExp },
-        });
+          config.module.rules.push({
+            test: /\.(ts|tsx)$/,
+            loader: "hot-self-accept-loader",
+            include: [path.join(dir, "pages")],
+            options: { extensions: /\.(ts|tsx)$/ },
+          });
+        }
       }
 
       config.module.rules.push({
