@@ -85,6 +85,8 @@ To solve the issue, next-typescript should use ts-loader again, but it is breaki
 ### Requirements
 - npm or Yarn
 - webpack 4.0.0 or higher
+- Next.js 5.0.0 or higher
+- TypeScript 2.4.1 or higher
 
 ### Installation
 
