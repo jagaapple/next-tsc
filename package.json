@@ -18,9 +18,13 @@
     "type": "git",
     "url": "https://github.com/jagaapple/next-tsc.git"
   },
-  "scripts": {},
+  "scripts": {
+    "fix": "prettier --write \"./**/*.js\""
+  },
   "config": {},
-  "dependencies": {},
+  "dependencies": {
+    "ts-loader": "^5.3.1"
+  },
   "devDependencies": {
     "prettier": "^1.15.3"
   },
