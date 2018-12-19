@@ -2,5 +2,8 @@
 <!-- CHANGELOG                                                                                                               -->
 <!-- ======================================================================================================================= -->
 # Changelog
+## 1.0.0 (2018-12-20)
+- Initial public release - [@jagaapple](https://github.com/jagaapple)
+
 ## 0.1.0 (2018-12-19)
 - Initial private release - [@jagaapple](https://github.com/jagaapple)
