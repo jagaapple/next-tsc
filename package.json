@@ -1,6 +1,6 @@
 {
   "name": "next-tsc",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Use TypeScript with TypeScript compiler (tsc) in Next.js.",
   "keywords": [
     "Next.js",
@@ -11,6 +11,16 @@
   "license": "MIT",
   "author": "Jaga Apple",
   "contributors": [],
+  "files": [
+    ".gitignore",
+    "CHANGELOG.md",
+    "CODE_OF_CONDUCT.md",
+    "index.js",
+    "LICENSE",
+    "package.json",
+    "package-lock.json",
+    "README.md"
+  ],
   "main": "index.js",
   "bin": "",
   "man": "",
