@@ -20,7 +20,9 @@
   },
   "scripts": {},
   "config": {},
-  "dependencies": {},
+  "dependencies": {
+    "ts-loader": "^5.3.1"
+  },
   "devDependencies": {
     "prettier": "^1.15.3"
   },
