@@ -23,8 +23,8 @@ arrowParens: "always"
 # Format only a segment of a file.
 # These two options can be used to format code starting and ending at a given character offset (inclusive and exclusive,
 # respectively).
-rangeStart: 0
-rangeEnd: "Infinity"
+# rangeStart: 0
+# rangeEnd: "Infinity"
 # Specify which parser to use.
 # Both the babylon and flow parsers support the same set of JavaScript features (including Flow).
 # Prettier automatically infers the parser from the input file path, so you shouldn't have to change this setting.
