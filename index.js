@@ -46,7 +46,7 @@ module.exports = (nextConfig = {}) => {
           defaultLoaders.babel,
           {
             loader: "ts-loader",
-            options: { transpileOnly: false, ...nextConfig.tsLoaderOptions },
+            options: { ...nextConfig.tsLoaderOptions, transpileOnly: false },
           },
         ],
       });
