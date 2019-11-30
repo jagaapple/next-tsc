@@ -1,6 +1,11 @@
 <!-- ======================================================================================================================= -->
 <!-- README                                                                                                                  -->
 <!-- ======================================================================================================================= -->
+# This package has been deprecated
+This package has been deprecated and you should follow `isolatedModules` in `tsconfig.json` .
+
+---
+
 # next-tsc
 
 [![npm](https://img.shields.io/npm/v/next-tsc.svg)](https://www.npmjs.com/package/next-tsc)
